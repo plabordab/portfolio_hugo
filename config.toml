@@ -1,0 +1,219 @@
+baseURL = 'https://github.com/plabordab/portfolio_hugo.git'
+languageCode = 'es'
+title = 'Mi portfolio'
+theme = ['universal']
+
+defaultContentLanguage = 'es'
+
+[menu]
+
+# Menú
+
+[[menu.main]]
+    name       = "Manuales"
+    identifier = "menu.manuales"
+    url        = "/"
+    weight     = 1
+
+
+    [[menu.main]]
+        name       = "Hugo"
+        identifier = "section.hugo"
+        url        = ""
+        weight     = 1
+        parent     = "menu.manuales"
+        post       = 1
+
+
+            [[menu.main]]
+                name       = "Instalación"
+                url        = "/instalacion_hugo/"
+                weight     = 1
+                parent     = "section.hugo"
+                post       = 1
+
+            [[menu.main]]
+                name       = "Configuración"
+                url        = "/configuracion_hugo/"
+                weight     = 2
+                parent     = "section.hugo"
+                post       = 1
+
+            [[menu.main]]
+                name       = "Tema"
+                url        = "/tema_hugo/"
+                weight     = 3
+                parent     = "section.hugo"
+                post       = 1
+
+            [[menu.main]]
+                name       = "Markdown"
+                url        = "/markdown_hugo/"
+                weight     = 4
+                parent     = "section.hugo"
+                post       = 1
+
+
+
+    [[menu.main]]
+        name       = "GitHub"
+        identifier = "section.github"
+        url        = ""
+        weight     = 1
+        parent     = "menu.manuales"
+        post       = 2
+
+
+            [[menu.main]]
+                name       = "Instalación"
+                url        = "/instalacion_github/"
+                weight     = 1
+                parent     = "section.github"
+                post       = 2
+
+            [[menu.main]]
+                name       = "Subir"
+                url        = "/subir/"
+                weight     = 2
+                parent     = "section.github"
+                post       = 2
+
+            [[menu.main]]
+                name       = "Descargar"
+                url        = "/descargar/"
+                weight     = 3
+                parent     = "section.github"
+                post       = 2
+
+    [[menu.main]]
+        name       = "Docker"
+        identifier = "section.docker"
+        url        = ""
+        weight     = 1
+        parent     = "menu.manuales"
+        post       = 3
+
+            [[menu.main]]
+                name       = "Instalación"
+                url        = "/instalacion_docker/"
+                weight     = 1
+                parent     = "section.docker"
+                post       = 3
+
+[[menu.main]]
+    name       = "Entretenimiento"
+    identifier = "menu.entretenimiento"
+    url        = ""
+    weight     = 2
+
+
+    [[menu.main]]
+        name       = "Carga Web"
+        url        = "/carga_web/"
+        weight     = 1
+        parent     = "menu.entretenimiento"
+
+    [[menu.main]]
+        name       = "Programación TV"
+        url        = "/tv/"
+        weight     = 2
+        parent     = "menu.entretenimiento"
+
+    [[menu.main]]
+        name       = "Puzzle"
+        url        = "/puzzle/"
+        weight     = 3
+        parent     = "menu.entretenimiento"
+
+[[menu.main]]
+    identifier = "contact"
+    name       = "About me"
+    url        = "/about_me/"
+    weight     = 3
+
+
+# Menú de enlaces sociales de la barra superior
+
+[[menu.topbar]]
+    weight = 1
+    name = "Telf"
+    url = "tel:+34654321123"
+    pre = "<i class='fas fa-2x fa-phone'></i>"
+
+[[menu.topbar]]
+    weight = 2
+    name = "GitHub"
+    url = "https://github.com/plabordab"
+    pre = "<i class='fab fa-2x fa-github'></i>"
+
+[[menu.topbar]]
+    weight = 3
+    name = "Facebook"
+    url = "http://facebook.com"
+    pre = "<i class='fab fa-2x fa-facebook'></i>"
+
+[[menu.topbar]]
+    weight = 4
+    name = "Twitter"
+    url = "http://twitter.com"
+    pre = "<i class='fab fa-2x fa-twitter'></i>"
+
+[[menu.topbar]]
+    weight = 5
+    name = "Email"
+    url = "mailto:pilarlabordaberdun@gmail.com"
+    pre = "<i class='fas fa-2x fa-envelope'></i>"
+
+
+
+[params]
+
+    style = 'default'
+
+    dropdown_mouse_over = false
+
+    disabled_logo = false
+    logo_text = "Pilar Laborda"
+
+    logo = "img/raton.jpg"
+
+    contact_url = "/contact"
+    address = """<p class="text-uppercase"><strong>Pilar Laborda</strong>
+        <br>Zaragoza
+        <br>
+        <strong>SPAIN</strong>
+      </p>
+      """
+
+ # Activar o desactivar la barra superior con iconos sociales 
+
+[params.topbar]
+    enable = true
+    text = """<p class="hidden-sm hidden-xs">Contacto: pilarlabordaberdun@gmail.com.</p>
+      <p class="hidden-md hidden-lg"><a href="tel:+34 658 944 666" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
+      <a href="mailto:pilarlabordaberdun@gmail.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+      </p>
+      """
+
+# Habilitar y deshabilitar los widgets para la barra lateral derecha
+
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
+
+[params.carouselHomepage]
+
+    enable = true
+    auto_play = true
+    slide_speed = 2000
+    pagination_speed = 1000
+      
+
+[params.footer.recent_posts]
+    enable = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  author = "authors"

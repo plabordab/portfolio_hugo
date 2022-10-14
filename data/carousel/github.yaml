@@ -1,0 +1,10 @@
+weight: 2
+title: "GitHub"
+description: >
+  <ul class="list-style-none">
+     <li>GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. </li>
+     <li>Se utiliza principalmente para la creación de código fuente de programas de ordenador. </li>
+     <li>El software que opera GitHub fue escrito en Ruby on Rails. </li>
+   </ul>
+image: "img/carousel/template-github.png"
+href: "/blog/github"

@@ -1,0 +1,9 @@
+weight: 1
+title: "HUGO"
+description: >
+  <ul class="list-style-none">
+    <li>Hugo es un moderno framework para creación de sitios web de propósito general.</li>
+    <li>Se trata de un generador de sitios estáticos, escrito completamente en Go.</li>
+   </ul>
+image: "img/carousel/template-hugo.png"
+href: "blog/hugo"

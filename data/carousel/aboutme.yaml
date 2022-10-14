@@ -1,0 +1,8 @@
+weight: 5
+title: "About me"
+description: >
+  <ul class="list-style-none">
+    <li>Conoce mi portfolio</li>
+  </ul>
+image: "img/carousel/template-aboutme.png"
+href: "about_me"
