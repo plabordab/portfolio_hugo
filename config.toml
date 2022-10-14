@@ -5,9 +5,9 @@ theme = ['universal']
 
 defaultContentLanguage = 'es'
 
-[menu]
-
 # Menú
+
+[menu]
 
 [[menu.main]]
     name       = "Manuales"
@@ -28,7 +28,7 @@ defaultContentLanguage = 'es'
             [[menu.main]]
                 name       = "Instalación"
                 url        = "/instalacion_hugo/"
-                weight     = 1
+                weight     = 2
                 parent     = "section.hugo"
                 post       = 1
 
@@ -103,7 +103,7 @@ defaultContentLanguage = 'es'
 [[menu.main]]
     name       = "Entretenimiento"
     identifier = "menu.entretenimiento"
-    url        = ""
+    url        = "/img/carousel/template-ocio.png"
     weight     = 2
 
 
@@ -134,29 +134,19 @@ defaultContentLanguage = 'es'
 
 # Menú de enlaces sociales de la barra superior
 
-[[menu.topbar]]
-    weight = 1
-    name = "Telf"
-    url = "tel:+34654321123"
-    pre = "<i class='fas fa-2x fa-phone'></i>"
 
 [[menu.topbar]]
-    weight = 2
+    weight = 1
     name = "GitHub"
     url = "https://github.com/plabordab"
     pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
     weight = 3
-    name = "Facebook"
-    url = "http://facebook.com"
-    pre = "<i class='fab fa-2x fa-facebook'></i>"
+    name = "Linkedin"
+    url = "https://www.linkedin.com/in/pilar-laborda-berd%C3%BAn-13568060"
+    pre = "<i class='fab fa-2x fa-linkedin'></i>"
 
-[[menu.topbar]]
-    weight = 4
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fab fa-2x fa-twitter'></i>"
 
 [[menu.topbar]]
     weight = 5
@@ -165,17 +155,22 @@ defaultContentLanguage = 'es'
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 
-
 [params]
 
     style = 'default'
 
     dropdown_mouse_over = false
 
-    disabled_logo = false
-    logo_text = "Pilar Laborda"
 
-    logo = "img/raton.jpg"
+    disabled_logo = false
+    
+    logo_text = "Universal"
+
+    logo = "img/logo.png"
+    logo_small = "img/logo-small.png"
+
+
+    #logo = "img/raton.jpg"
 
     contact_url = "/contact"
     address = """<p class="text-uppercase"><strong>Pilar Laborda</strong>
@@ -185,17 +180,13 @@ defaultContentLanguage = 'es'
       </p>
       """
 
- # Activar o desactivar la barra superior con iconos sociales 
+ # Barra superior con iconos sociales 
 
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contacto: pilarlabordaberdun@gmail.com.</p>
-      <p class="hidden-md hidden-lg"><a href="tel:+34 658 944 666" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-      <a href="mailto:pilarlabordaberdun@gmail.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
-      </p>
-      """
+   
 
-# Habilitar y deshabilitar los widgets para la barra lateral derecha
+# Widgets para la barra lateral derecha
 
 [params.widgets]
     categories = true
@@ -217,3 +208,27 @@ defaultContentLanguage = 'es'
   category = "categories"
   tag = "tags"
   author = "authors"
+
+
+# Idiomas
+
+[languages]
+  [languages.es]
+    contentDir = 'content/es'
+    languageName = 'Español'
+    weight = 10
+  [languages.en]
+    contentDir = 'content/en'
+    languageName = 'English'
+    weight = 20
+  [languages.fr]
+    contentDir = 'content/fr'
+    languageName = 'Français'
+    weight = 30
+
+
+
+# Gráficos
+
+[params.mermaid]
+    enable = true
