@@ -5,6 +5,9 @@ theme = ['universal']
 
 defaultContentLanguage = 'es'
 
+# Sistema de comentarios desactivados
+disqusShortname = ""
+
 # Menú
 
 [menu]
@@ -12,46 +15,40 @@ defaultContentLanguage = 'es'
 [[menu.main]]
     name       = "Manuales"
     identifier = "menu.manuales"
-    url        = "/"
     weight     = 1
-
 
     [[menu.main]]
         name       = "Hugo"
         identifier = "section.hugo"
-        url        = ""
+        url        = "/hugo/hugo/"
         weight     = 1
         parent     = "menu.manuales"
         post       = 1
 
 
             [[menu.main]]
-                name       = "Instalación"
+                name       = "Instalación Hugo"
                 url        = "/instalacion_hugo/"
-                weight     = 2
+                weight     = 1
                 parent     = "section.hugo"
-                post       = 1
 
             [[menu.main]]
                 name       = "Configuración"
                 url        = "/configuracion_hugo/"
                 weight     = 2
                 parent     = "section.hugo"
-                post       = 1
 
             [[menu.main]]
                 name       = "Tema"
                 url        = "/tema_hugo/"
                 weight     = 3
                 parent     = "section.hugo"
-                post       = 1
 
             [[menu.main]]
                 name       = "Markdown"
                 url        = "/markdown_hugo/"
                 weight     = 4
                 parent     = "section.hugo"
-                post       = 1
 
 
 
@@ -59,51 +56,47 @@ defaultContentLanguage = 'es'
         name       = "GitHub"
         identifier = "section.github"
         url        = ""
-        weight     = 1
+        weight     = 2
         parent     = "menu.manuales"
         post       = 2
 
 
             [[menu.main]]
-                name       = "Instalación"
+                name       = "Instalación Git"
                 url        = "/instalacion_github/"
                 weight     = 1
                 parent     = "section.github"
-                post       = 2
 
             [[menu.main]]
                 name       = "Subir"
                 url        = "/subir/"
                 weight     = 2
                 parent     = "section.github"
-                post       = 2
 
             [[menu.main]]
                 name       = "Descargar"
                 url        = "/descargar/"
                 weight     = 3
                 parent     = "section.github"
-                post       = 2
 
     [[menu.main]]
         name       = "Docker"
         identifier = "section.docker"
         url        = ""
-        weight     = 1
+        weight     = 3
         parent     = "menu.manuales"
         post       = 3
 
             [[menu.main]]
-                name       = "Instalación"
+                name       = "Instalación Docker"
                 url        = "/instalacion_docker/"
                 weight     = 1
                 parent     = "section.docker"
-                post       = 3
 
 [[menu.main]]
     name       = "Entretenimiento"
     identifier = "menu.entretenimiento"
-    url        = "/img/carousel/template-ocio.png"
+    url        = ""
     weight     = 2
 
 
@@ -142,36 +135,39 @@ defaultContentLanguage = 'es'
     pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
-    weight = 3
+    weight = 2
     name = "Linkedin"
     url = "https://www.linkedin.com/in/pilar-laborda-berd%C3%BAn-13568060"
     pre = "<i class='fab fa-2x fa-linkedin'></i>"
 
 
 [[menu.topbar]]
-    weight = 5
+    weight = 3
     name = "Email"
-    url = "mailto:pilarlabordaberdun@gmail.com"
+    url = "mailto:pilarlabordaweb@gmail.com"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 
 [params]
 
     style = 'default'
-
     dropdown_mouse_over = false
-
-
     disabled_logo = false
+    logo_text = "Pilar Laborda"
+    logo = "img/template-LOGO.png"
+
+    # Habilitar el formulario de contacto
+
+       email = "pilarlabordaweb@gmail.com"
+       formspree_action = "https://formspree.io/f/maykdkdz"
+       contact_form_ajax = false
     
-    logo_text = "Universal"
+    # Habilitar captcha en el formulario 
 
-    logo = "img/logo.png"
-    logo_small = "img/logo-small.png"
+        enableRecaptchaInContactForm = true
+        googleRecaptchaKey = "6Lcb15siAAAAAA5fmS0ICspqfEZ53rHyjiodUI5Z"
 
-
-    #logo = "img/raton.jpg"
-
+    
     contact_url = "/contact"
     address = """<p class="text-uppercase"><strong>Pilar Laborda</strong>
         <br>Zaragoza
@@ -180,7 +176,7 @@ defaultContentLanguage = 'es'
       </p>
       """
 
- # Barra superior con iconos sociales 
+# Barra superior con iconos sociales 
 
 [params.topbar]
     enable = true
@@ -211,6 +207,8 @@ defaultContentLanguage = 'es'
 
 
 # Idiomas
+
+# Este tema carece de esta funcionalidad
 
 [languages]
   [languages.es]
