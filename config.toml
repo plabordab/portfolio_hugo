@@ -29,7 +29,7 @@ disqusShortname = ""
 
             [[menu.main]]
                 name       = "Instalación Hugo"
-                url        = "/instalacion_hugo/"
+                url        = "instalacion_hugo/"
                 weight     = 1
                 parent     = "section.hugo"
 
