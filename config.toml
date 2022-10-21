@@ -1,4 +1,5 @@
-baseURL = 'https://github.com/plabordab/portfolio_hugo.git'
+#baseURL = 'https://plabordab.github.io/portfolio_hugo'
+baseURL = 'http://localhost'
 languageCode = 'es'
 title = 'Mi portfolio'
 theme = ['universal']
@@ -20,7 +21,7 @@ disqusShortname = ""
     [[menu.main]]
         name       = "Hugo"
         identifier = "section.hugo"
-        url        = "/hugo/hugo/"
+        url        = "/data/carousel/hugo/"
         weight     = 1
         parent     = "menu.manuales"
         post       = 1
