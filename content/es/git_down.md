@@ -1,8 +1,11 @@
----
-title: "Git"
-date: 2022-09-27T19:54:33+02:00
-draft: false
----
++++
+title = "github"
+tags = ["git", "github"]
+categories = ["github"]
+description = "Instalación GIT"
+banner = "img/banners/hugo.jpeg"
+authors = ["Pilar Laborda"]
++++
 
 # REPOSITORIO EN GITHUB
 

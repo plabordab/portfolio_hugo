@@ -21,7 +21,7 @@ disqusShortname = ""
     [[menu.main]]
         name       = "Hugo"
         identifier = "section.hugo"
-        url        = "/data/carousel/hugo/"
+        url        = ""
         weight     = 1
         parent     = "menu.manuales"
         post       = 1
@@ -29,25 +29,25 @@ disqusShortname = ""
 
             [[menu.main]]
                 name       = "Instalación Hugo"
-                url        = "instalacion_hugo/"
+                url        = "/hugo_instal/"
                 weight     = 1
                 parent     = "section.hugo"
 
             [[menu.main]]
                 name       = "Configuración"
-                url        = "/configuracion_hugo/"
+                url        = "/hugo_config/"
                 weight     = 2
                 parent     = "section.hugo"
 
             [[menu.main]]
-                name       = "Tema"
-                url        = "/tema_hugo/"
+                name       = "Tema Universal"
+                url        = "/hugo_tema/"
                 weight     = 3
                 parent     = "section.hugo"
 
             [[menu.main]]
                 name       = "Markdown"
-                url        = "/markdown_hugo/"
+                url        = "/hugo_md/"
                 weight     = 4
                 parent     = "section.hugo"
 
@@ -64,19 +64,19 @@ disqusShortname = ""
 
             [[menu.main]]
                 name       = "Instalación Git"
-                url        = "/instalacion_github/"
+                url        = "/git_instal/"
                 weight     = 1
                 parent     = "section.github"
 
             [[menu.main]]
                 name       = "Subir"
-                url        = "/subir/"
+                url        = "/git_up/"
                 weight     = 2
                 parent     = "section.github"
 
             [[menu.main]]
                 name       = "Descargar"
-                url        = "/descargar/"
+                url        = "/git_down/"
                 weight     = 3
                 parent     = "section.github"
 
@@ -90,7 +90,7 @@ disqusShortname = ""
 
             [[menu.main]]
                 name       = "Instalación Docker"
-                url        = "/instalacion_docker/"
+                url        = "/docker_instal/"
                 weight     = 1
                 parent     = "section.docker"
 
@@ -103,25 +103,25 @@ disqusShortname = ""
 
     [[menu.main]]
         name       = "Carga Web"
-        url        = "/carga_web/"
+        url        = "/ocio_web/"
         weight     = 1
         parent     = "menu.entretenimiento"
 
     [[menu.main]]
         name       = "Programación TV"
-        url        = "/tv/"
+        url        = "/ocio_tv/"
         weight     = 2
         parent     = "menu.entretenimiento"
 
     [[menu.main]]
-        name       = "Puzzle"
-        url        = "/puzzle/"
+        name       = "Juego"
+        url        = "/ocio_juego/"
         weight     = 3
         parent     = "menu.entretenimiento"
 
 [[menu.main]]
     identifier = "contact"
-    name       = "About me"
+    name       = "Sobre mí"
     url        = "/about_me/"
     weight     = 3
 
@@ -231,3 +231,12 @@ disqusShortname = ""
 
 [params.mermaid]
     enable = true
+
+[params.see_more]
+
+   enable = true
+   icon = "far fa-file-alt"
+   title = "Diviértete aprendiendo"
+   subtitle = "Tenemos diferentes opciones para ti"
+   link_url = "http://your-site.com/more"
+   link_text = "Descúbrelas"

@@ -6,4 +6,4 @@ description: >
     <li>automatización de virtualización de aplicaciones en múltiples sistemas operativos.</li>
   </ul>
 image: "img/carousel/template-docker.png"
-href: "blog/docker"
+href: "docker_info"
