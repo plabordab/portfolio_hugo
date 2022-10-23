@@ -1,7 +1,7 @@
 #baseURL = 'https://plabordab.github.io/portfolio_hugo'
 baseURL = 'http://localhost'
 languageCode = 'es'
-title = 'Mi portfolio'
+title = 'Pilar Laborda'
 theme = ['universal']
 
 defaultContentLanguage = 'es'
@@ -34,7 +34,7 @@ disqusShortname = ""
                 parent     = "section.hugo"
 
             [[menu.main]]
-                name       = "Configuración"
+                name       = "Configuración Hugo"
                 url        = "/hugo_config/"
                 weight     = 2
                 parent     = "section.hugo"
@@ -54,8 +54,8 @@ disqusShortname = ""
 
 
     [[menu.main]]
-        name       = "GitHub"
-        identifier = "section.github"
+        name       = "Git"
+        identifier = "section.git"
         url        = ""
         weight     = 2
         parent     = "menu.manuales"
@@ -63,22 +63,22 @@ disqusShortname = ""
 
 
             [[menu.main]]
-                name       = "Instalación Git"
-                url        = "/git_instal/"
+                name       = "Git Init"
+                url        = "/git_init/"
                 weight     = 1
-                parent     = "section.github"
+                parent     = "section.git"
 
             [[menu.main]]
-                name       = "Subir"
-                url        = "/git_up/"
+                name       = "Git Push"
+                url        = "/git_push/"
                 weight     = 2
-                parent     = "section.github"
+                parent     = "section.git"
 
             [[menu.main]]
-                name       = "Descargar"
-                url        = "/git_down/"
+                name       = "Git Pull"
+                url        = "/git_pull/"
                 weight     = 3
-                parent     = "section.github"
+                parent     = "section.git"
 
     [[menu.main]]
         name       = "Docker"
@@ -92,6 +92,18 @@ disqusShortname = ""
                 name       = "Instalación Docker"
                 url        = "/docker_instal/"
                 weight     = 1
+                parent     = "section.docker"
+
+            [[menu.main]]
+                name       = "Configuración Docker"
+                url        = "/docker_config/"
+                weight     = 2
+                parent     = "section.docker"
+
+            [[menu.main]]
+                name       = "Apache"
+                url        = "/docker_apache/"
+                weight     = 3
                 parent     = "section.docker"
 
 [[menu.main]]
