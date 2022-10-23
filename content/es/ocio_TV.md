@@ -1,10 +1,13 @@
 +++
-title = "tv"
+title = "Listado de canales de TV"
 tags = ["tv"]
 categories = ["tv"]
-description = "Televisión"
+description = "Listado de canales de TV"
 banner = "img/banners/hugo.jpeg"
 authors = ["Pilar Laborda"]
+layout = "tv"
 +++
 
-## Listado de canales de TV
+## Disfruta de nuestra oferta televisiva
+
+![Imagen no encontrada](/img/tv.png "tv")

@@ -106,36 +106,12 @@ disqusShortname = ""
                 weight     = 3
                 parent     = "section.docker"
 
-[[menu.main]]
-    name       = "Entretenimiento"
-    identifier = "menu.entretenimiento"
-    url        = ""
-    weight     = 2
-
-
-    [[menu.main]]
-        name       = "Carga Web"
-        url        = "/ocio_web/"
-        weight     = 1
-        parent     = "menu.entretenimiento"
-
-    [[menu.main]]
-        name       = "Programación TV"
-        url        = "/ocio_tv/"
-        weight     = 2
-        parent     = "menu.entretenimiento"
-
-    [[menu.main]]
-        name       = "Juego"
-        url        = "/ocio_juego/"
-        weight     = 3
-        parent     = "menu.entretenimiento"
 
 [[menu.main]]
     identifier = "contact"
     name       = "Sobre mí"
-    url        = "/about_me/"
-    weight     = 3
+    url        = "/contact/"
+    weight     = 2
 
 
 # Menú de enlaces sociales de la barra superior
@@ -177,8 +153,10 @@ disqusShortname = ""
     
     # Habilitar captcha en el formulario 
 
-        enableRecaptchaInContactForm = true
-        googleRecaptchaKey = "6Lcb15siAAAAAA5fmS0ICspqfEZ53rHyjiodUI5Z"
+    # Deshabilito esta opción ya que el captcha no me permite el dominio: 'https://plabordab.github.io/portfolio_hugo'
+
+        enableRecaptchaInContactForm = false
+    #    googleRecaptchaKey = "6Lcb15siAAAAAA5fmS0ICspqfEZ53rHyjiodUI5Z"
 
     
     contact_url = "/contact"
@@ -218,6 +196,14 @@ disqusShortname = ""
   tag = "tags"
   author = "authors"
 
+# Widgets de características
+
+
+[params.features]
+    enable = true
+    cols = 2 # Default: 2, Available values 2,3,4,6
+
+
 
 # Idiomas
 
@@ -247,8 +233,8 @@ disqusShortname = ""
 [params.see_more]
 
    enable = true
-   icon = "far fa-file-alt"
-   title = "Diviértete aprendiendo"
-   subtitle = "Tenemos diferentes opciones para ti"
-   link_url = "http://your-site.com/more"
-   link_text = "Descúbrelas"
+   icon = "fas fa-user"
+   title = "Es momento de descansar"
+   subtitle = "Disfruta con nuestra oferta televisiva"
+   link_url = "/ocio_tv/"
+   link_text = "Descúbrela"

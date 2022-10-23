@@ -1,0 +1,22 @@
++++
+title = "tv"
+tags = ["tv"]
+categories = ["tv"]
+description = "Televisión"
+banner = "img/banners/hugo.jpeg"
+authors = ["Pilar Laborda"]
+layout = "tv"
++++
+
+
+# Uso de una plantilla
+En esta página veremos el uso de una plantilla
+
+{{ .Title }}
+
+{{ .Params.bar }}
+
+{{ if or (isset .Params "alt") (isset .Params "caption") }} Caption {{ end }}
+
+<title>{{ .Title }}</title>
+
