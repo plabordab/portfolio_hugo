@@ -45,6 +45,19 @@
                           {{ .Content }}
                         </div>
                         <!-- /#post-content -->
+
+
+                        <div class="post-content">
+                          {{- if not (.Param "disableAnchoredHeadings") }}
+                          {{- partial "anchored_headings.html" .Content -}}
+                          {{- else }}{{ .Content }}{{ end }}
+                          <!-- Add mermaid min js file -->
+                          {{ if (.Params.mermaid) }}
+                          {{ partial "mermaid.html" }}
+                          {{ end }}
+                          {{ partial "subscribe.html" . }}
+                      </div>
+
                         {{ if .Site.DisqusShortname }}
                         <div id="comments">
                             {{ template "_internal/disqus.html" . }}

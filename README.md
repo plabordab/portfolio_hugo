@@ -70,7 +70,27 @@ Me ha surgido un problema a la hora de incluir la selección del idioma y, final
 
 #### Gráficos mermaid
 
-PTE
+Según la [documentación oficial de Hugo](https://gohugo.io/content-management/diagrams/#mermaid-diagrams), el programa no proporciona, actualmente, plantillas por defecto para los diagramas Mermaid. 
+
+Pero explica que se pueden crear unas propias fácilmente escribiendo el siguiente fragmento de código en el directorio: `layouts/_default/_markup/render-codeblock-mermaid.html`:
+
+```js
+<div class="mermaid">
+  {{- .Inner | safeHTML }}
+</div>
+{{ .Page.Store.Set "hasMermaid" true }}
+```
+
+Después de incluirlo, en la parte inferior de la plantilla de contenido (Nota: debajo de .Content ya que el gancho de renderización no se procesa hasta que se ejecuta .Content):
+
+```js
+{{ if .Page.Store.Get "hasMermaid" }}
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+{{ end }}
+```
 
 #### Datos externos
 

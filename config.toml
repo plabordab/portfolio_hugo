@@ -227,8 +227,7 @@ disqusShortname = ""
 
 # Gráficos
 
-[params.mermaid]
-    enable = true
+hasMermaid = true
 
 [params.see_more]
 

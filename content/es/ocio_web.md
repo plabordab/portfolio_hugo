@@ -5,6 +5,7 @@ categories = ["web"]
 description = "Carga web"
 banner = "img/banners/hugo.jpeg"
 authors = ["Pilar Laborda"]
+mermaid = true
 +++
 
 El proceso de carga de una página web tiene una complejidad invisible para el usuario, que indica qué página web quiere ver y ésta se carga en segundos. 
@@ -22,6 +23,17 @@ De manera resumida podríamos describir el proceso en los siguientes pasos:
 
 
 ### GRÁFICO MERMAID
+
+
+{{ $mermaid := resources.Get "/path/to/mermaid.min.js" }}
+<script src="{{ $mermaid.RelPermalink }}"></script>
+<script>
+    window.onload = function() {
+        mermaid.init(undefined, ".language-mermaid");
+    };
+</script>
+
+
 
 De manera más explicita, todo comienza cuando se introduce una dirección en la barra de búsqueda del navegador. Esta dirección identifica de forma inequívoca a toda página web, permitiendo localizarla en Internet. 
 
