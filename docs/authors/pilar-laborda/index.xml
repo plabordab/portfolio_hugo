@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pilar Laborda</title>
+    <link>http://localhost/authors/pilar-laborda/</link>
+    <description>Recent content on Pilar Laborda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language><atom:link href="http://localhost/authors/pilar-laborda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Qué es HUGO?</title>
+      <link>http://localhost/hugo_info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/hugo_info/</guid>
+      <description>El framework más rápido del mundo para crear sitios web Hugo es uno de los generadores de sitios estáticos de código abierto más populares. Con su increíble velocidad y flexibilidad, hace que la construcción de sitios web sea divertida.
+Velocidad vertiginosa Hugo es la herramienta más rápida de su clase. A menos de 1 milisegundo por página, el sitio promedio se construye en menos de un segundo.
+Gestión robusta de contenido Reglas de flexibilidad.</description>
+    </item>
+    
+    <item>
+      <title>apache</title>
+      <link>http://localhost/docker_apache/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/docker_apache/</guid>
+      <description>Instalación y ejecución Empezamos con la instalación de apache:
+apt-get install apache2 Podemos ver el estado del servicio con el comando:
+service apache2 status Comando para arrancar apache:
+service apache2 start &amp;lt;nombre_contendor&amp;gt; Apache dentro de un contenedor Se puede ejecutar un comando sobre un contenedor:
+docker exec &amp;lt;nombre_contendor&amp;gt; &amp;lt;comando&amp;gt; Por ejemplo:
+docker exec web service apache2 status Para iniciar el contenedor de docker:
+docker start web Para ejecutar el contenedor en la terminal:</description>
+    </item>
+    
+    <item>
+      <title>Bienvenido a la zona de ocio</title>
+      <link>http://localhost/ocio_info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/ocio_info/</guid>
+      <description>Programas TV Puzzle: conecta las palabras ¿Sabes como se carga una página web? </description>
+    </item>
+    
+    <item>
+      <title>configuración de docker</title>
+      <link>http://localhost/docker_config/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/docker_config/</guid>
+      <description>Las imágenes en Docker Se trata de un archivo que se encuentra compuesto de diversas capas y se utiliza con el objetivo de ejecutar un código dentro de un contenedor de Docker.
+Contienen todo el sistema de ficheros inicial en los que se va a basar el contenedor para su funcionamiento, así como su punto de entrada (comando que deberá ejecutarse cuando el usuario lance un contenedor que esté asociado a esa imagen en Docker).</description>
+    </item>
+    
+    <item>
+      <title>CONFIGURACIÓN DE HUGO</title>
+      <link>http://localhost/hugo_config/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/hugo_config/</guid>
+      <description>HUGO es un programa gestor de contenido estático.
+Los sitios web estáticos no tienen base de datos, pero utilizando un API, pueden utilizar un servicio para acceder a otro.
+A través de Hugo, crearemos una estructura de carpetas, junto con un fichero config.toml o .yaml.
+En este fichero incluiremos los parámetros oportunos estableciendo parejas variable-valor.
+En la carpeta content incluiremos ficheros de texto con extension .md.
+Markdown es un lenguaje simple que se utiliza para crear texto enriquecido con un editor de texto sin formato.</description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>http://localhost/docker_info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/docker_info/</guid>
+      <description>Acelere la forma en que crea, comparte y ejecuta aplicaciones modernas. Docker hace que el desarrollo sea eficiente y predecible Docker elimina las tareas de configuración repetitivas y mundanas y se utiliza durante todo el ciclo de vida del desarrollo para un desarrollo de aplicaciones rápido, fácil y portátil: escritorio y nube.
+La plataforma completa de extremo a extremo de Docker incluye interfaces de usuario, CLI, API y seguridad que están diseñadas para funcionar juntas durante todo el ciclo de vida de la entrega de la aplicación.</description>
+    </item>
+    
+    <item>
+      <title>git pull</title>
+      <link>http://localhost/git_pull/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/git_pull/</guid>
+      <description>El comando git pull se emplea para extraer y descargar contenido desde un repositorio remoto y actualizar al instante el repositorio local.
+La fusión de cambios remotos de nivel superior en el repositorio local es una tarea habitual de los flujos de trabajo de colaboración basados en Git.
+El comando git pull es, en realidad, una combinación de dos comandos, git fetch seguido de git merge.
+En la primera etapa de la operación git pull ejecutará un git fetch en la rama local a la que apunta HEAD.</description>
+    </item>
+    
+    <item>
+      <title>git push</title>
+      <link>http://localhost/git_push/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/git_push/</guid>
+      <description>El comando git push se usa para cargar contenido del repositorio local a un repositorio remoto.
+El envío es la forma de transferir confirmaciones desde tu repositorio local a un repositorio remoto. Es el equivalente a git fetch, pero mientras que al recuperar se importan las confirmaciones a ramas locales, al enviar estas se exportan a ramas remotas. Las ramas remotas se configuran mediante el comando git remote. Los envíos pueden sobrescribir los cambios, por lo que se debe tener cuidado a la hora de realizarlos.</description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>http://localhost/git_info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/git_info/</guid>
+      <description>La plataforma de desarrollo más completa para crear, escalar y entregar software seguro. Codificación colaborativa Contribución rápida a proyectos con configuración automática del entorno.
+Seguridad de visión de los cambios de interés.
+Posibilidad de creación de una comunidad en torno a su código.
+Automatización y CI/CD Automatización de CI/CD, pruebas, planificación, gestión de proyectos, etiquetado de problemas, aprobaciones, incorporación y más.
+Estandación y escalado
+Las mejores prácticas, la seguridad y el cumplimiento en toda la organización.</description>
+    </item>
+    
+    <item>
+      <title>instalación de docker</title>
+      <link>http://localhost/docker_instal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/docker_instal/</guid>
+      <description>Antes de instalar Docker debemos desinstalar versiones antiguas, para ello ejecutamos el comando:
+sudo apt-get remove docker docker-engine docker.io containerd runc Ahora ya lo podemos instalar usando el repositorio de docker para Ubuntu:
+sudo apt-get install ca-certificates curl gnupg-agent lsb-release Añadimos la clave GPG oficial de docker:
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg Y el repositorio stalbe. Se podría añadir uno nightly o test, modificando la palabra stalbe por el tipo de vesión que se desee instalar:</description>
+    </item>
+    
+    <item>
+      <title>INSTALACIÓN DE HUGO</title>
+      <link>http://localhost/hugo_instal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/hugo_instal/</guid>
+      <description>Para instalar la versión más estable de hugo en la terminal de linux escribimos:
+sudo snap install hugo --classic Podemos ver la versión con el comando:
+hugo version Trabajaremos con VS code, por lo que si no lo tenemos instalado en nuestra máquina lo hacemos:
+sudo snap install code --classic Creamos una carpeta en nuestro directorio para almacenar los proyectos:
+mkdir hugo Y nos movemos allí para empezar a crear un nuevo sitio de contenido:</description>
+    </item>
+    
+    <item>
+      <title>Listado de canales de TV</title>
+      <link>http://localhost/ocio_tv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/ocio_tv/</guid>
+      <description>Disfruta de nuestra oferta televisiva </description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>http://localhost/hugo_md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/hugo_md/</guid>
+      <description>Markdown es un lenguaje de marcado como html, pero con la particularidad que es mucho más sencillo y práctico de usar. Además su curva de aprendizaje es extremadamente sencilla y proporciona ventajas en lo que a productividad se refiere.
+FUNCIONALIDADES: SALTOS DE LÍNEA Y PÁRRAFOS Para generar un nuevo párrafo tenemos que dejar una línea en blanco.
+ENCABEZADOS O TÍTULOS Para crear un encabezado escribimos la cantidad de almohadillas (#) correspondientes al nivel de encabezado que queramos, seguido de un espacio:</description>
+    </item>
+    
+    <item>
+      <title>Proceso de carga de una página Web</title>
+      <link>http://localhost/ocio_web/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/ocio_web/</guid>
+      <description>El proceso de carga de una página web tiene una complejidad invisible para el usuario, que indica qué página web quiere ver y ésta se carga en segundos.
+En fracciones de segundo, el navegador entra en contacto con servidores web repartidos por todo el mundo, consulta allí los paquetes de datos almacenados y entrega, a partir de estos, una página web en la pantalla del dispositivo.
+De manera resumida podríamos describir el proceso en los siguientes pasos:</description>
+    </item>
+    
+    <item>
+      <title>Resuelve el puzle</title>
+      <link>http://localhost/ocio_juego/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/ocio_juego/</guid>
+      <description>Conecta las palabras A continuación se muestran algunas herramientas o tecnologías para el desarrollo web.
+Debes agrupadas según la relación que existe entre ellas y definirlas.
+SOLUCIÓN </description>
+    </item>
+    
+    <item>
+      <title>Solución del puzle</title>
+      <link>http://localhost/ocio_solucion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/ocio_solucion/</guid>
+      <description>¡ENHORABUENA! Aquí tienes la solución, como puedes ver, algunas tecnologías se pueden relacionar entre varias otras:
+1Frontend: 2JavaScript
+3HTML
+4CSS
+5Backend: 6PHP
+7Python
+8Framework: 9Angular
+10Prototype
+11Frameworks de php
+12DJango
+13Bootstrap
+14Vue
+15Librerías: 16React
+17JQuery
+18Sistema de gestión de contenidos: 19WordPress
+20Gatsby
+21Hugo
+22Jekyll
+23Vuespress
+24Pelican
+25Lenguajes: 26JavaScript
+27HTML
+28CSS
+29PHP
+30Python
+31Java
+32TypeScript
+33JSP
+34Perl
+35JavaScript: 36Babel
+37WebPack
+38Polyfill
+39Scraping heroku
+40Control de Versiones: 41Github
+42TortoiseSVN
+43Sistema Operativo 44Linux</description>
+    </item>
+    
+    <item>
+      <title>tema universal</title>
+      <link>http://localhost/hugo_tema/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/hugo_tema/</guid>
+      <description>Universal es una plantilla web limpia y elegante construida con Bootstrap. Destaca por su diseño limpio y su elegante tipografía.
+Sitio de demostración
+FUNCIONALIDADES: Idioma Las traducciones disponibles están en el directorio /i18n. Se puede configurar el idioma modificando la siguiente clave.
+defaultContentLanguage = &amp;#34;en&amp;#34; Estilo Para cambiar el color del tema se debe modificar:
+style = &amp;#34;default&amp;#34; Las opciones disponibles son: por defecto (azul claro), azul, verde, marsala, rosa, rojo, turquesa, violeta.</description>
+    </item>
+    
+    <item>
+      <title>Vinculación a git</title>
+      <link>http://localhost/git_init/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/git_init/</guid>
+      <description>Repositorio local y repositorio remoto Los repositorios remotos son versiones del proyecto hospedadas en Internet. Colaborar con otras personas implica gestionar estos repositorios enviando y recogiendo datos de ellos cuando sea necesario compartir el trabajo.
+Las operaciones básicas entre un repositorio remoto y uno local son:
+push: Envía los cambios validados de la rama local a la rama remota.
+pull: Descarga y combina automáticamente la rama remota con la rama actual.</description>
+    </item>
+    
+  </channel>
+</rss>

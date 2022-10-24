@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>entretenimiento on Pilar Laborda</title>
+    <link>http://localhost/tags/entretenimiento/</link>
+    <description>Recent content in entretenimiento on Pilar Laborda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language><atom:link href="http://localhost/tags/entretenimiento/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bienvenido a la zona de ocio</title>
+      <link>http://localhost/ocio_info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/ocio_info/</guid>
+      <description>Programas TV Puzzle: conecta las palabras ¿Sabes como se carga una página web? </description>
+    </item>
+    
+  </channel>
+</rss>

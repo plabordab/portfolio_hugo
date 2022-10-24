@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web on Pilar Laborda</title>
+    <link>http://localhost/categories/web/</link>
+    <description>Recent content in web on Pilar Laborda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language><atom:link href="http://localhost/categories/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proceso de carga de una página Web</title>
+      <link>http://localhost/ocio_web/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/ocio_web/</guid>
+      <description>El proceso de carga de una página web tiene una complejidad invisible para el usuario, que indica qué página web quiere ver y ésta se carga en segundos.
+En fracciones de segundo, el navegador entra en contacto con servidores web repartidos por todo el mundo, consulta allí los paquetes de datos almacenados y entrega, a partir de estos, una página web en la pantalla del dispositivo.
+De manera resumida podríamos describir el proceso en los siguientes pasos:</description>
+    </item>
+    
+  </channel>
+</rss>

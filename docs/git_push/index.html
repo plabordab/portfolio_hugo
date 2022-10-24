@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>git push</title>
+<meta name="author" content="" />
+
+
+
+
+<meta name="keywords" content="git, github">
+
+
+<meta name="description" content="cargar contenido del repositorio local a un repositorio remoto">
+
+<meta name="generator" content="Hugo 0.104.3" />
+
+
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+
+
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.11.2/css/all.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link href="/css/animate.css" rel="stylesheet">
+
+
+
+  <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+
+
+
+<link href="/css/custom.css?1666624429" rel="stylesheet">
+
+
+
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
+
+
+<link href="/css/owl.carousel.css" rel="stylesheet">
+<link href="/css/owl.theme.css" rel="stylesheet">
+
+
+<link rel="alternate" href="http://localhost/index.xml" type="application/rss+xml" title="Pilar Laborda">
+
+
+
+
+
+
+
+
+<meta property="og:locale" content="es">
+<meta property="og:site_name" content="Pilar Laborda">
+<meta property="og:title" content="git push">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://localhost/git_push/" />
+<meta property="og:description" content="cargar contenido del repositorio local a un repositorio remoto">
+<meta property="og:image" content="http://localhost/img/banners/hugo.jpeg">
+<meta property="og:image:type" content="image/jpeg">
+
+
+
+  <meta property="og:image:width" content="439">
+  <meta property="og:image:height" content="115">
+
+
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:title" content="git push">
+
+<meta name="twitter:image" content="http://localhost/img/banners/hugo.jpeg">
+
+<meta name="twitter:description" content="cargar contenido del repositorio local a un repositorio remoto">
+
+
+    
+  </head>
+
+  <body>
+
+    <div id="all">
+        
+<header>
+  <div id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-5">
+          
+        </div>
+        <div class="col-xs-7">
+          <div class="social">
+            
+            <a href="https://github.com/plabordab" target="_blank" style="opacity: 1;"><i class='fab fa-2x fa-github'></i></a>
+            
+            <a href="https://www.linkedin.com/in/pilar-laborda-berd%C3%BAn-13568060" target="_blank" style="opacity: 1;"><i class='fab fa-2x fa-linkedin'></i></a>
+            
+            <a href="mailto:pilarlabordaweb@gmail.com" target="_blank" style="opacity: 1;"><i class='fas fa-2x fa-envelope'></i></a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+        <header class="navbar-affixed-top" data-spy="affix" data-offset-top="62">
+    <div class="navbar navbar-default yamm " role="navigation" id="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="/">
+                    
+                      <img src="/img/template-LOGO.png" alt="git push logo" class="hidden-xs hidden-sm" />
+                      <img src="/" alt="git push logo" class="visible-xs visible-sm" />
+                    
+                    <span class="sr-only">git push - ir a inicio</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Cambiar Navegación</span>
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                    
+                    
+                    <li class="dropdown use-yamm yamm-fw ">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Manuales <span class="caret"></span></a>
+                        
+                        <ul class="dropdown-menu">
+                            <li>
+                            <div class="yamm-content">
+                            <div class="row">
+                                
+                                <div class="col-sm-3">
+                                
+                                    
+                                    
+                                    <h5>Hugo</h5>
+                                    
+                                    <ul>
+                                    
+                                    <li><a href="/hugo_instal/">Instalación Hugo</a></li>
+                                    <li><a href="/hugo_config/">Configuración Hugo</a></li>
+                                    <li><a href="/hugo_tema/">Tema Universal</a></li>
+                                    <li><a href="/hugo_md/">Markdown</a></li>
+                                    </ul>
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                </div>
+                                <div class="col-sm-3">
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                    <h5>Git</code></h5>
+                                    
+                                    <ul>
+                                    
+                                    <li><a href="/git_init/">Git Init</a></li>
+                                    
+                                    <li><a href="/git_push/">Git Push</a></li>
+                                    
+                                    <li><a href="/git_pull/">Git Pull</a></li>
+                                    
+                                    </ul>
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                </div>
+                                
+                                <div class="col-sm-3">
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                    <h5>Docker</code></h5>
+                                    
+                                    <ul>
+                                    
+                                    <li><a href="/docker_instal/">Instalación Docker</a></li>
+                                    
+                                    <li><a href="/docker_config/">Configuración Docker</a></li>
+                                    
+                                    <li><a href="/docker_apache/">Apache</a></li>
+                                    
+                                    </ul>
+                                    
+                                    
+                                
+                                </div>
+                                <div class="col-sm-3">
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                </div>
+                                
+                            </div>
+                            </div>
+                            </li>
+                        </ul>
+                        
+                    </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/contact/">Sobre mí</a>
+                  </li>
+                  
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</header>
+
+
+
+
+        <div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>git push</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div>
+                          <p>El comando <code>git push</code> se usa para cargar contenido del repositorio local a un repositorio remoto.</p>
+<p>El envío es la forma de transferir confirmaciones desde tu repositorio local a un repositorio remoto. Es el equivalente a git fetch, pero mientras que al recuperar se importan las confirmaciones a ramas locales, al enviar estas se exportan a ramas remotas. Las ramas remotas se configuran mediante el comando git remote. Los envíos pueden sobrescribir los cambios, por lo que se debe tener cuidado a la hora de realizarlos. Estos problemas se describen a continuación.</p>
+<h2 id="uso-de-git-push">Uso de git push</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">push</span> <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">remote</span><span style="color:#f92672">&gt;</span> <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">branch</span><span style="color:#f92672">&gt;</span>
+</span></span></code></pre></div><p>Envía la rama especificada al servidor remoto, junto con todos los commits y objetos internos necesarios. De este modo se crea una rama local en el repositorio de destino. Para evitar que se sobrescriban los commits, Git no te permitirá enviarlos cuando el resultado en el repositorio de destino sea una fusión sin avance rápido.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">push</span> <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">remote</span><span style="color:#f92672">&gt;</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">force</span>
+</span></span></code></pre></div><p>Es igual que el comando anterior, pero fuerza el envío incluso si el resultado es una fusión sin avance rápido. No se debe usar <code>--force</code> sin la absoluta certeza de saber lo que se está haciendo.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">push</span> <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">remote</span><span style="color:#f92672">&gt;</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">all</span>
+</span></span></code></pre></div><p>Envía todas las ramas locales a una rama remota especificada.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">push</span> <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">remote</span><span style="color:#f92672">&gt;</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">tags</span>
+</span></span></code></pre></div><p>Las etiquetas no se envían automáticamente cuando envías una rama o usas la opción <code>--all</code>. La marca <code>--tags</code> envía todas las etiquetas locales al repositorio remoto.</p>
+<h2 id="análisis-de-git-push">Análisis de git push</h2>
+<p><code>git push</code> se usa sobre todo para publicar y cargar cambios locales a un repositorio central. Después de modificar el repositorio local, se ejecuta un envío para compartir las modificaciones con los miembros remotos del equipo.</p>
+<h3 id="uso-de-git-push-para-publicar-cambios">Uso de git push para publicar cambios</h3>
+<p>En el siguiente diagrama se muestra lo que pasa cuando el progreso de la rama principal local ha sobrepasado a la rama principal del repositorio central y publicas los cambios ejecutando <code>git push origin main</code>.</p>
+<p><img src="/img/git_push.png" alt="Imagen no encontrada" title="antes de git push"></p>
+<p>Ejecutar <code>git push</code> es, en esencia, lo mismo que ejecutar <code>git merge main</code> desde el repositorio remoto.</p>
+<h3 id="sicronización">Sicronización</h3>
+<p><code>git push</code> es uno de los muchos componentes que se usan en el proceso general de &ldquo;sincronización&rdquo; de Git.</p>
+<p>Los comandos de sincronización funcionan en ramas remotas que se configuran mediante el comando <code>git remote</code>.</p>
+<p>A <code>git push</code> se le puede considerar un comando de carga, mientras que, a <code>git fetch</code> y a <code>git pull</code>, comandos de descarga.</p>
+<p>Una vez movidos los conjuntos de cambios mediante una descarga o una carga, se puede ejecutar un comando <code>git merge</code> en el destino para integrarlos.</p>
+<h3 id="eliminación-de-una-rama-remota">Eliminación de una rama remota</h3>
+<p>En ocasiones, se deben limpiar las ramas por motivos de organización y mantenimiento de registros.</p>
+<p>Para eliminar una rama por completo, se debe eliminar tanto de forma local como de forma remota.</p>
+<p>Para eliminar la rama remota denominada &ldquo;nombre_rama&rdquo; tenemos dos opciones:</p>
+<ol>
+<li>
+<p>Con el comando <code>git branch</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">branch</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">D</span> <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">nombre_rama</span><span style="color:#f92672">&gt;</span><span style="color:#e6db74">`
+</span></span></span></code></pre></div></li>
+<li>
+<p>O pasándola como argumento al comando <code>git push</code> con el prefijo dos puntos (:).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">push</span> <span style="color:#a6e22e">origin</span> <span style="color:#f92672">:&lt;</span><span style="color:#a6e22e">nombre_rama</span><span style="color:#f92672">&gt;</span><span style="color:#e6db74">`
+</span></span></span></code></pre></div></li>
+</ol>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                
+
+            </div>
+            
+
+            
+        </div>
+        
+
+        <footer id="footer">
+    <div class="container">
+
+        
+
+        <div class="col-md-4 col-sm-6">
+
+            
+
+        </div>
+        
+
+        
+        <div class="col-md-4 col-sm-6">
+
+          <h4>Contacto</h4>
+
+            <p class="text-uppercase"><strong>Pilar Laborda</strong>
+        <br>Zaragoza
+        <br>
+        <strong>SPAIN</strong>
+      </p>
+      
+
+	    <a href="/contact" class="btn btn-small btn-template-main">Ir a la página de contacto</a>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+    </div>
+    
+</footer>
+
+
+
+
+
+
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            
+            <p class="pull-right">
+              Plantilla creada por <a href="https://bootstrapious.com/p/universal-business-e-commerce-template">Bootstrapious</a>.
+              
+
+              Adaptada a Hugo por <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    </div>
+    
+
+    
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+
+<script src="/js/front.js"></script>
+
+
+<script src="/js/owl.carousel.min.js"></script>
+
+
+
+  </body>
+</html>

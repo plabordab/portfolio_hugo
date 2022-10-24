@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>juego on Pilar Laborda</title>
+    <link>http://localhost/categories/juego/</link>
+    <description>Recent content in juego on Pilar Laborda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language><atom:link href="http://localhost/categories/juego/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resuelve el puzle</title>
+      <link>http://localhost/ocio_juego/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/ocio_juego/</guid>
+      <description>Conecta las palabras A continuación se muestran algunas herramientas o tecnologías para el desarrollo web.
+Debes agrupadas según la relación que existe entre ellas y definirlas.
+SOLUCIÓN </description>
+    </item>
+    
+    <item>
+      <title>Solución del puzle</title>
+      <link>http://localhost/ocio_solucion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/ocio_solucion/</guid>
+      <description>¡ENHORABUENA! Aquí tienes la solución, como puedes ver, algunas tecnologías se pueden relacionar entre varias otras:
+1Frontend: 2JavaScript
+3HTML
+4CSS
+5Backend: 6PHP
+7Python
+8Framework: 9Angular
+10Prototype
+11Frameworks de php
+12DJango
+13Bootstrap
+14Vue
+15Librerías: 16React
+17JQuery
+18Sistema de gestión de contenidos: 19WordPress
+20Gatsby
+21Hugo
+22Jekyll
+23Vuespress
+24Pelican
+25Lenguajes: 26JavaScript
+27HTML
+28CSS
+29PHP
+30Python
+31Java
+32TypeScript
+33JSP
+34Perl
+35JavaScript: 36Babel
+37WebPack
+38Polyfill
+39Scraping heroku
+40Control de Versiones: 41Github
+42TortoiseSVN
+43Sistema Operativo 44Linux</description>
+    </item>
+    
+  </channel>
+</rss>

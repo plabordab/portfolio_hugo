@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on Pilar Laborda</title>
+    <link>http://localhost/categories/markdown/</link>
+    <description>Recent content in Markdown on Pilar Laborda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language><atom:link href="http://localhost/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown</title>
+      <link>http://localhost/hugo_md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/hugo_md/</guid>
+      <description>Markdown es un lenguaje de marcado como html, pero con la particularidad que es mucho más sencillo y práctico de usar. Además su curva de aprendizaje es extremadamente sencilla y proporciona ventajas en lo que a productividad se refiere.
+FUNCIONALIDADES: SALTOS DE LÍNEA Y PÁRRAFOS Para generar un nuevo párrafo tenemos que dejar una línea en blanco.
+ENCABEZADOS O TÍTULOS Para crear un encabezado escribimos la cantidad de almohadillas (#) correspondientes al nivel de encabezado que queramos, seguido de un espacio:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tema on Pilar Laborda</title>
+    <link>http://localhost/categories/tema/</link>
+    <description>Recent content in tema on Pilar Laborda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language><atom:link href="http://localhost/categories/tema/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tema universal</title>
+      <link>http://localhost/hugo_tema/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/hugo_tema/</guid>
+      <description>Universal es una plantilla web limpia y elegante construida con Bootstrap. Destaca por su diseño limpio y su elegante tipografía.
+Sitio de demostración
+FUNCIONALIDADES: Idioma Las traducciones disponibles están en el directorio /i18n. Se puede configurar el idioma modificando la siguiente clave.
+defaultContentLanguage = &amp;#34;en&amp;#34; Estilo Para cambiar el color del tema se debe modificar:
+style = &amp;#34;default&amp;#34; Las opciones disponibles son: por defecto (azul claro), azul, verde, marsala, rosa, rojo, turquesa, violeta.</description>
+    </item>
+    
+  </channel>
+</rss>

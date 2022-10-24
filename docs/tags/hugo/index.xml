@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on Pilar Laborda</title>
+    <link>http://localhost/tags/hugo/</link>
+    <description>Recent content in hugo on Pilar Laborda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language><atom:link href="http://localhost/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Qué es HUGO?</title>
+      <link>http://localhost/hugo_info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/hugo_info/</guid>
+      <description>El framework más rápido del mundo para crear sitios web Hugo es uno de los generadores de sitios estáticos de código abierto más populares. Con su increíble velocidad y flexibilidad, hace que la construcción de sitios web sea divertida.
+Velocidad vertiginosa Hugo es la herramienta más rápida de su clase. A menos de 1 milisegundo por página, el sitio promedio se construye en menos de un segundo.
+Gestión robusta de contenido Reglas de flexibilidad.</description>
+    </item>
+    
+    <item>
+      <title>CONFIGURACIÓN DE HUGO</title>
+      <link>http://localhost/hugo_config/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/hugo_config/</guid>
+      <description>HUGO es un programa gestor de contenido estático.
+Los sitios web estáticos no tienen base de datos, pero utilizando un API, pueden utilizar un servicio para acceder a otro.
+A través de Hugo, crearemos una estructura de carpetas, junto con un fichero config.toml o .yaml.
+En este fichero incluiremos los parámetros oportunos estableciendo parejas variable-valor.
+En la carpeta content incluiremos ficheros de texto con extension .md.
+Markdown es un lenguaje simple que se utiliza para crear texto enriquecido con un editor de texto sin formato.</description>
+    </item>
+    
+    <item>
+      <title>INSTALACIÓN DE HUGO</title>
+      <link>http://localhost/hugo_instal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/hugo_instal/</guid>
+      <description>Para instalar la versión más estable de hugo en la terminal de linux escribimos:
+sudo snap install hugo --classic Podemos ver la versión con el comando:
+hugo version Trabajaremos con VS code, por lo que si no lo tenemos instalado en nuestra máquina lo hacemos:
+sudo snap install code --classic Creamos una carpeta en nuestro directorio para almacenar los proyectos:
+mkdir hugo Y nos movemos allí para empezar a crear un nuevo sitio de contenido:</description>
+    </item>
+    
+  </channel>
+</rss>

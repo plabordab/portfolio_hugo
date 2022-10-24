@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>apache on Pilar Laborda</title>
+    <link>http://localhost/tags/apache/</link>
+    <description>Recent content in apache on Pilar Laborda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language><atom:link href="http://localhost/tags/apache/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>apache</title>
+      <link>http://localhost/docker_apache/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/docker_apache/</guid>
+      <description>Instalación y ejecución Empezamos con la instalación de apache:
+apt-get install apache2 Podemos ver el estado del servicio con el comando:
+service apache2 status Comando para arrancar apache:
+service apache2 start &amp;lt;nombre_contendor&amp;gt; Apache dentro de un contenedor Se puede ejecutar un comando sobre un contenedor:
+docker exec &amp;lt;nombre_contendor&amp;gt; &amp;lt;comando&amp;gt; Por ejemplo:
+docker exec web service apache2 status Para iniciar el contenedor de docker:
+docker start web Para ejecutar el contenedor en la terminal:</description>
+    </item>
+    
+  </channel>
+</rss>
