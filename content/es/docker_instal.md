@@ -63,7 +63,6 @@ newgrp docker
 > Si no funciona, intentamos dar los permisos para la conexión al socket del dominio Docker:
 > 
 >> ``` js
->> 
 >> sudo chmod 666 /var/run/docker.sock
 >> 
 >> ```

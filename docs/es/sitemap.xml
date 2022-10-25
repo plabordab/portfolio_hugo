@@ -2,158 +2,150 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost/hugo_info/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/hugo_info/</loc>
   </url><url>
-    <loc>http://localhost/tags/apache/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/tags/apache/</loc>
   </url><url>
-    <loc>http://localhost/docker_apache/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/docker_apache/</loc>
   </url><url>
-    <loc>http://localhost/authors/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost/en/authors/"
+                href="https://plabordab.github.io/portfolio_hugo/en/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost/fr/authors/"
+                href="https://plabordab.github.io/portfolio_hugo/fr/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost/authors/"
+                href="https://plabordab.github.io/portfolio_hugo/authors/"
                 />
   </url><url>
-    <loc>http://localhost/ocio_info/</loc>
-  </url><url>
-    <loc>http://localhost/categories/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost/en/categories/"
+                href="https://plabordab.github.io/portfolio_hugo/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost/fr/categories/"
+                href="https://plabordab.github.io/portfolio_hugo/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost/categories/"
+                href="https://plabordab.github.io/portfolio_hugo/categories/"
                 />
   </url><url>
-    <loc>http://localhost/docker_config/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/docker_config/</loc>
   </url><url>
-    <loc>http://localhost/hugo_config/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/hugo_config/</loc>
   </url><url>
-    <loc>http://localhost/contact/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/contact/</loc>
   </url><url>
-    <loc>http://localhost/tags/docker/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/tags/docker/</loc>
   </url><url>
-    <loc>http://localhost/categories/docker/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/categories/docker/</loc>
   </url><url>
-    <loc>http://localhost/docker_info/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/docker_info/</loc>
   </url><url>
-    <loc>http://localhost/tags/entretenimiento/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/tags/git/</loc>
   </url><url>
-    <loc>http://localhost/tags/git/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/categories/git/</loc>
   </url><url>
-    <loc>http://localhost/categories/git/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/git_pull/</loc>
   </url><url>
-    <loc>http://localhost/git_pull/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/git_push/</loc>
   </url><url>
-    <loc>http://localhost/git_push/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/tags/github/</loc>
   </url><url>
-    <loc>http://localhost/tags/github/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/categories/github/</loc>
   </url><url>
-    <loc>http://localhost/categories/github/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/git_info/</loc>
   </url><url>
-    <loc>http://localhost/git_info/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/tags/hugo/</loc>
   </url><url>
-    <loc>http://localhost/tags/hugo/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/categories/hugo/</loc>
   </url><url>
-    <loc>http://localhost/categories/hugo/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/docker_instal/</loc>
   </url><url>
-    <loc>http://localhost/docker_instal/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/hugo_instal/</loc>
   </url><url>
-    <loc>http://localhost/hugo_instal/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/tags/juego/</loc>
   </url><url>
-    <loc>http://localhost/tags/juego/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/categories/juego/</loc>
   </url><url>
-    <loc>http://localhost/categories/juego/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/ocio_tv/</loc>
   </url><url>
-    <loc>http://localhost/ocio_tv/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/tags/markdown/</loc>
   </url><url>
-    <loc>http://localhost/tags/markdown/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/categories/markdown/</loc>
   </url><url>
-    <loc>http://localhost/categories/markdown/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/hugo_md/</loc>
   </url><url>
-    <loc>http://localhost/hugo_md/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/tags/palabras/</loc>
   </url><url>
-    <loc>http://localhost/tags/ocio/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/authors/pilar-laborda/</loc>
   </url><url>
-    <loc>http://localhost/categories/ocio/</loc>
-  </url><url>
-    <loc>http://localhost/tags/palabras/</loc>
-  </url><url>
-    <loc>http://localhost/authors/pilar-laborda/</loc>
-  </url><url>
-    <loc>http://localhost/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost/en/"
+                href="https://plabordab.github.io/portfolio_hugo/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost/fr/"
+                href="https://plabordab.github.io/portfolio_hugo/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost/"
+                href="https://plabordab.github.io/portfolio_hugo/"
                 />
   </url><url>
-    <loc>http://localhost/ocio_web/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/ocio_web/</loc>
   </url><url>
-    <loc>http://localhost/ocio_juego/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/ocio_juego/</loc>
   </url><url>
-    <loc>http://localhost/ocio_solucion/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/ocio_solucion/</loc>
   </url><url>
-    <loc>http://localhost/tags/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost/en/tags/"
+                href="https://plabordab.github.io/portfolio_hugo/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost/fr/tags/"
+                href="https://plabordab.github.io/portfolio_hugo/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost/tags/"
+                href="https://plabordab.github.io/portfolio_hugo/tags/"
                 />
   </url><url>
-    <loc>http://localhost/tags/tema/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/tags/tema/</loc>
   </url><url>
-    <loc>http://localhost/categories/tema/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/categories/tema/</loc>
   </url><url>
-    <loc>http://localhost/hugo_tema/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/hugo_tema/</loc>
   </url><url>
-    <loc>http://localhost/tags/tv/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/tags/tv/</loc>
   </url><url>
-    <loc>http://localhost/categories/tv/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/categories/tv/</loc>
   </url><url>
-    <loc>http://localhost/git_init/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/git_init/</loc>
   </url><url>
-    <loc>http://localhost/tags/web/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/tags/web/</loc>
   </url><url>
-    <loc>http://localhost/categories/web/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/categories/web/</loc>
   </url>
 </urlset>

@@ -1,5 +1,4 @@
-#baseURL = 'https://plabordab.github.io/portfolio_hugo'
-baseURL = 'http://localhost'
+baseURL = 'https://plabordab.github.io/portfolio_hugo'
 languageCode = 'es'
 title = 'Pilar Laborda'
 theme = ['universal']
@@ -113,9 +112,10 @@ disqusShortname = ""
     url        = "/contact/"
     weight     = 2
 
+# Barra superior con iconos sociales 
 
-# Menú de enlaces sociales de la barra superior
-
+[params.topbar]
+    enable = true
 
 [[menu.topbar]]
     weight = 1
@@ -145,20 +145,21 @@ disqusShortname = ""
     logo_text = "Pilar Laborda"
     logo = "img/template-LOGO.png"
 
-    # Habilitar el formulario de contacto
+    # Formulario de contacto
 
        email = "pilarlabordaweb@gmail.com"
        formspree_action = "https://formspree.io/f/maykdkdz"
        contact_form_ajax = false
     
-    # Habilitar captcha en el formulario 
+    # Captcha en el formulario 
 
     # Deshabilito esta opción ya que el captcha no me permite el dominio: 'https://plabordab.github.io/portfolio_hugo'
 
         enableRecaptchaInContactForm = false
     #    googleRecaptchaKey = "6Lcb15siAAAAAA5fmS0ICspqfEZ53rHyjiodUI5Z"
 
-    
+    # Dirección de contacto
+
     contact_url = "/contact"
     address = """<p class="text-uppercase"><strong>Pilar Laborda</strong>
         <br>Zaragoza
@@ -167,13 +168,7 @@ disqusShortname = ""
       </p>
       """
 
-# Barra superior con iconos sociales 
-
-[params.topbar]
-    enable = true
-   
-
-# Widgets para la barra lateral derecha
+# Widgets
 
 [params.widgets]
     categories = true
@@ -187,7 +182,6 @@ disqusShortname = ""
     slide_speed = 2000
     pagination_speed = 1000
       
-
 [params.footer.recent_posts]
     enable = true
 
@@ -198,12 +192,9 @@ disqusShortname = ""
 
 # Widgets de características
 
-
 [params.features]
     enable = true
     cols = 2 # Default: 2, Available values 2,3,4,6
-
-
 
 # Idiomas
 
@@ -223,11 +214,13 @@ disqusShortname = ""
     languageName = 'Français'
     weight = 30
 
-
-
 # Gráficos
 
+# Este tema carece de esta funcionalidad
+
 hasMermaid = true
+
+# see more convertido en el canal televisivo
 
 [params.see_more]
 

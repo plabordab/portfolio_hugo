@@ -2,124 +2,106 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Pilar Laborda</title>
-    <link>http://localhost/tags/</link>
+    <link>https://plabordab.github.io/portfolio_hugo/tags/</link>
     <description>Recent content in Tags on Pilar Laborda</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es</language><atom:link href="http://localhost/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>es</language><atom:link href="https://plabordab.github.io/portfolio_hugo/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>apache</title>
-      <link>http://localhost/tags/apache/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/tags/apache/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/tags/apache/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/tags/apache/</guid>
       <description></description>
     </item>
     
     <item>
       <title>docker</title>
-      <link>http://localhost/tags/docker/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/tags/docker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>entretenimiento</title>
-      <link>http://localhost/tags/entretenimiento/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost/tags/entretenimiento/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>git</title>
-      <link>http://localhost/tags/git/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/tags/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/tags/git/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github</title>
-      <link>http://localhost/tags/github/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/tags/github/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/tags/github/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>http://localhost/tags/hugo/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/tags/hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/tags/hugo/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>juego</title>
-      <link>http://localhost/tags/juego/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/tags/juego/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/tags/juego/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/tags/juego/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Markdown</title>
-      <link>http://localhost/tags/markdown/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/tags/markdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ocio</title>
-      <link>http://localhost/tags/ocio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost/tags/ocio/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>palabras</title>
-      <link>http://localhost/tags/palabras/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/tags/palabras/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/tags/palabras/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/tags/palabras/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tema</title>
-      <link>http://localhost/tags/tema/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/tags/tema/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/tags/tema/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/tags/tema/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tv</title>
-      <link>http://localhost/tags/tv/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/tags/tv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/tags/tv/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/tags/tv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>web</title>
-      <link>http://localhost/tags/web/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/tags/web/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/tags/web/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/tags/web/</guid>
       <description></description>
     </item>
     

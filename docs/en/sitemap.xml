@@ -2,72 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost/en/authors/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/en/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost/authors/"
+                href="https://plabordab.github.io/portfolio_hugo/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost/fr/authors/"
+                href="https://plabordab.github.io/portfolio_hugo/fr/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost/en/authors/"
+                href="https://plabordab.github.io/portfolio_hugo/en/authors/"
                 />
   </url><url>
-    <loc>http://localhost/en/categories/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost/categories/"
+                href="https://plabordab.github.io/portfolio_hugo/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost/fr/categories/"
+                href="https://plabordab.github.io/portfolio_hugo/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost/en/categories/"
+                href="https://plabordab.github.io/portfolio_hugo/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost/en/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost/"
+                href="https://plabordab.github.io/portfolio_hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost/fr/"
+                href="https://plabordab.github.io/portfolio_hugo/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost/en/"
+                href="https://plabordab.github.io/portfolio_hugo/en/"
                 />
   </url><url>
-    <loc>http://localhost/en/tags/</loc>
+    <loc>https://plabordab.github.io/portfolio_hugo/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost/tags/"
+                href="https://plabordab.github.io/portfolio_hugo/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost/fr/tags/"
+                href="https://plabordab.github.io/portfolio_hugo/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost/en/tags/"
+                href="https://plabordab.github.io/portfolio_hugo/en/tags/"
                 />
   </url>
 </urlset>

@@ -24,16 +24,15 @@ De manera resumida podríamos describir el proceso en los siguientes pasos:
 
 ### GRÁFICO MERMAID
 
-
-{{ $mermaid := resources.Get "/path/to/mermaid.min.js" }}
-<script src="{{ $mermaid.RelPermalink }}"></script>
-<script>
-    window.onload = function() {
-        mermaid.init(undefined, ".language-mermaid");
-    };
-</script>
-
-
+```mermaid
+  graph TD
+    A(fa:fa-search 1. Búsqueda) --> B(fa:fa-arrows-h 2. Conversión a IP)
+    B --> C(fa:fa-share-square 3. Envío HTTP)
+    C --> D(fa:fa-check-square 4. Comprobación )
+    D-->E(fa:fa-plus-square 5. Creación recurso )
+    E-->F(fa:fa-external-link  6. Envío recurso )
+    F-->|fa:fa-desktop Visualización | A
+```
 
 De manera más explicita, todo comienza cuando se introduce una dirección en la barra de búsqueda del navegador. Esta dirección identifica de forma inequívoca a toda página web, permitiendo localizarla en Internet. 
 

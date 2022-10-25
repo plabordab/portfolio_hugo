@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Pilar Laborda</title>
-    <link>http://localhost/authors/</link>
+    <link>https://plabordab.github.io/portfolio_hugo/authors/</link>
     <description>Recent content in Authors on Pilar Laborda</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es</language><atom:link href="http://localhost/authors/index.xml" rel="self" type="application/rss+xml" />
+    <language>es</language><atom:link href="https://plabordab.github.io/portfolio_hugo/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pilar Laborda</title>
-      <link>http://localhost/authors/pilar-laborda/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/authors/pilar-laborda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/authors/pilar-laborda/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/authors/pilar-laborda/</guid>
       <description></description>
     </item>
     

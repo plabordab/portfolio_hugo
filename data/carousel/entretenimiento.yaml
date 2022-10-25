@@ -1,8 +1,0 @@
-weight: 4
-title: "Entretenimiento"
-description: >
-  <ul class="list-style-none">
-    <li>Visita nuestra zona de ocio</li>
-  </ul>
-image: "img/carousel/template-ocio.png"
-href: "ocio_info"

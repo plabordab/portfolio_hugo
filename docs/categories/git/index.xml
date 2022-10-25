@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>git on Pilar Laborda</title>
-    <link>http://localhost/categories/git/</link>
+    <link>https://plabordab.github.io/portfolio_hugo/categories/git/</link>
     <description>Recent content in git on Pilar Laborda</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es</language><atom:link href="http://localhost/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    <language>es</language><atom:link href="https://plabordab.github.io/portfolio_hugo/categories/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vinculación a git</title>
-      <link>http://localhost/git_init/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/git_init/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/git_init/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/git_init/</guid>
       <description>Repositorio local y repositorio remoto Los repositorios remotos son versiones del proyecto hospedadas en Internet. Colaborar con otras personas implica gestionar estos repositorios enviando y recogiendo datos de ellos cuando sea necesario compartir el trabajo.
 Las operaciones básicas entre un repositorio remoto y uno local son:
 push: Envía los cambios validados de la rama local a la rama remota.

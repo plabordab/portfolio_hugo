@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pilar Laborda</title>
-    <link>http://localhost/fr/</link>
+    <link>https://plabordab.github.io/portfolio_hugo/fr/</link>
     <description>Recent content on Pilar Laborda</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es</language><atom:link href="http://localhost/fr/index.xml" rel="self" type="application/rss+xml" />
+    <language>es</language><atom:link href="https://plabordab.github.io/portfolio_hugo/fr/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

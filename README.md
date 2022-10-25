@@ -16,21 +16,17 @@
 
 ## Descripción del proyecto
 
-Este proyecto consiste en crear un sitio estático con HUGO. Para realizarlo he seleccionado el tema "UNIVERSAL", 
-está más orientado a la creación de un blog, pero me gustaba mucho el diseño y por eso decidí utilizarlo.
+Este proyecto consiste en crear un sitio estático con HUGO. Para realizarlo he seleccionado el tema "UNIVERSAL", está más orientado a la creación de un blog, pero me gustaba mucho el diseño y por eso decidí utilizarlo.
 
 ## Estado del proyecto
 
-PTE
-
-El proyecto se encuentra en proceso.
+El proyecto se encuentra finalizado, con los contratiempos con los que me he encontrado por falta de funcionalides del tema 'Universal' al no poder incluir la selección de idiomas y la no visualización de los canales de televisión.
 
 ## Características de la aplicación
 
 #### Página de inicio
 
-Dispone de un carrusel donde se muestra de manera automática diferentes imágenes y su descripción,
-relacionado con el contendido que voy a desarrollar.
+Dispone de un carrusel donde se muestra de manera automática diferentes imágenes y su descripción, relacionado con el contendido que voy a desarrollar.
 
 Debajo del carrusel se encuentran dos elementos incluidos en la sección _features_ con sus accesos directos correspondientes.
 
@@ -55,10 +51,9 @@ El menú superior, además del enlace a "Sobre mí" tiene una opción con un des
 | Tema Universal | Git Pull | Apache |  
 | Markdown | |  |  
 
+#### Menú superior de shortcodes sociales
 
-#### Menú superior de enlaces sociales
-
-El menú de enlaces sociales tiene los siguientes accesos directos a mis correspondientes cuentas, con sus respectivos iconos:
+El menú de shorcodes superior tiene los siguientes accesos directos a mis correspondientes cuentas, con sus respectivos iconos:
 
 - GitHub
 - Linkedin
@@ -66,7 +61,7 @@ El menú de enlaces sociales tiene los siguientes accesos directos a mis corresp
 
 #### Idiomas
 
-Me ha surgido un problema a la hora de incluir la selección del idioma y, finalmente, con este tema no he conseguido utilizar esta fución.
+Me ha surgido un problema a la hora de incluir la selección del idioma y, finalmente, con este tema no he conseguido utilizar esta función.
 
 #### Gráficos mermaid
 
@@ -81,7 +76,7 @@ Pero explica que se pueden crear unas propias fácilmente escribiendo el siguien
 {{ .Page.Store.Set "hasMermaid" true }}
 ```
 
-Después de incluirlo, en la parte inferior de la plantilla de contenido (Nota: debajo de .Content ya que el gancho de renderización no se procesa hasta que se ejecuta .Content):
+Y después incluir en la parte inferior de la plantilla de contenido (debajo de .Content, ya que el gancho de renderización no se procesa hasta que se ejecuta .Content).
 
 ```js
 {{ if .Page.Store.Get "hasMermaid" }}
@@ -92,9 +87,13 @@ Después de incluirlo, en la parte inferior de la plantilla de contenido (Nota: 
 {{ end }}
 ```
 
+En concreto, lo he incluído al final de `layouts/partials/footer.html`:
+
 #### Datos externos
 
-PTE
+Me parecía una idea muy buena incluir la parrilla de canales televisivos en mi página web, y así, poder consumir datos desde un fichero `json`.
+
+A pesar de mis buenas intenciones, siguiendo los pasos incluidos en el manual, no he conseguido que mi sitio muestre los canales; no sé si trata de otro problema de compatibilidad con mi tema seleccionado, ya que he seguido el mismo procedimiento en otro proyecto y no he tenido problemas.
 
 ## Acceso al proyecto
 
@@ -106,6 +105,14 @@ Principalmente, he utilizado el lenguaje Markdow para explicar otras tecnología
 
 ## Conclusión
 
-Tiene una navegación simple y es bastante visual, además los manuales están trabajados. 
+Me decanté por este tema, principalmente, por el carrusel; ya que me parece una idea fantástica para expresar a golpe visual un resumen del contenido de mi página web sin que el usuario necesite hacer scroll.
+
+Además, el menú es simple pero completo y facilita, con las subsecciones, la búsqueda de la información a consultar.
+
+También dispone de fácil acceso los enlaces de contacto, algo que me parece muy importante para un portfolio, igual que el formulario de contacto.
 
 Seguiré trabajando con este tema, ya que tiene otras muchas posibilidades, aunque no se adaptaban a las características de mi proyecto actual.
+
+Hugo me ha parecido una aplicación muy popontente, con muchas posibilidades para crear un sitio estático.
+
+En conclusión, esta página web tiene una navegación muy simple y visual, ofreciendo una gran usabilidad para la interacción de los usuarios. 

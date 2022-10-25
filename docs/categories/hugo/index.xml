@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hugo on Pilar Laborda</title>
-    <link>http://localhost/categories/hugo/</link>
+    <link>https://plabordab.github.io/portfolio_hugo/categories/hugo/</link>
     <description>Recent content in hugo on Pilar Laborda</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es</language><atom:link href="http://localhost/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <language>es</language><atom:link href="https://plabordab.github.io/portfolio_hugo/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>¿Qué es HUGO?</title>
-      <link>http://localhost/hugo_info/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/hugo_info/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/hugo_info/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/hugo_info/</guid>
       <description>El framework más rápido del mundo para crear sitios web Hugo es uno de los generadores de sitios estáticos de código abierto más populares. Con su increíble velocidad y flexibilidad, hace que la construcción de sitios web sea divertida.
 Velocidad vertiginosa Hugo es la herramienta más rápida de su clase. A menos de 1 milisegundo por página, el sitio promedio se construye en menos de un segundo.
 Gestión robusta de contenido Reglas de flexibilidad.</description>
@@ -19,10 +19,10 @@ Gestión robusta de contenido Reglas de flexibilidad.</description>
     
     <item>
       <title>CONFIGURACIÓN DE HUGO</title>
-      <link>http://localhost/hugo_config/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/hugo_config/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/hugo_config/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/hugo_config/</guid>
       <description>HUGO es un programa gestor de contenido estático.
 Los sitios web estáticos no tienen base de datos, pero utilizando un API, pueden utilizar un servicio para acceder a otro.
 A través de Hugo, crearemos una estructura de carpetas, junto con un fichero config.toml o .yaml.
@@ -33,10 +33,10 @@ Markdown es un lenguaje simple que se utiliza para crear texto enriquecido con u
     
     <item>
       <title>INSTALACIÓN DE HUGO</title>
-      <link>http://localhost/hugo_instal/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/hugo_instal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/hugo_instal/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/hugo_instal/</guid>
       <description>Para instalar la versión más estable de hugo en la terminal de linux escribimos:
 sudo snap install hugo --classic Podemos ver la versión con el comando:
 hugo version Trabajaremos con VS code, por lo que si no lo tenemos instalado en nuestra máquina lo hacemos:

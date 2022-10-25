@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>docker on Pilar Laborda</title>
-    <link>http://localhost/categories/docker/</link>
+    <link>https://plabordab.github.io/portfolio_hugo/categories/docker/</link>
     <description>Recent content in docker on Pilar Laborda</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es</language><atom:link href="http://localhost/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    <language>es</language><atom:link href="https://plabordab.github.io/portfolio_hugo/categories/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>apache</title>
-      <link>http://localhost/docker_apache/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/docker_apache/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/docker_apache/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/docker_apache/</guid>
       <description>Instalación y ejecución Empezamos con la instalación de apache:
 apt-get install apache2 Podemos ver el estado del servicio con el comando:
 service apache2 status Comando para arrancar apache:
@@ -23,30 +23,30 @@ docker start web Para ejecutar el contenedor en la terminal:</description>
     
     <item>
       <title>configuración de docker</title>
-      <link>http://localhost/docker_config/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/docker_config/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/docker_config/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/docker_config/</guid>
       <description>Las imágenes en Docker Se trata de un archivo que se encuentra compuesto de diversas capas y se utiliza con el objetivo de ejecutar un código dentro de un contenedor de Docker.
 Contienen todo el sistema de ficheros inicial en los que se va a basar el contenedor para su funcionamiento, así como su punto de entrada (comando que deberá ejecutarse cuando el usuario lance un contenedor que esté asociado a esa imagen en Docker).</description>
     </item>
     
     <item>
       <title>docker</title>
-      <link>http://localhost/docker_info/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/docker_info/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/docker_info/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/docker_info/</guid>
       <description>Acelere la forma en que crea, comparte y ejecuta aplicaciones modernas. Docker hace que el desarrollo sea eficiente y predecible Docker elimina las tareas de configuración repetitivas y mundanas y se utiliza durante todo el ciclo de vida del desarrollo para un desarrollo de aplicaciones rápido, fácil y portátil: escritorio y nube.
 La plataforma completa de extremo a extremo de Docker incluye interfaces de usuario, CLI, API y seguridad que están diseñadas para funcionar juntas durante todo el ciclo de vida de la entrega de la aplicación.</description>
     </item>
     
     <item>
       <title>instalación de docker</title>
-      <link>http://localhost/docker_instal/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/docker_instal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/docker_instal/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/docker_instal/</guid>
       <description>Antes de instalar Docker debemos desinstalar versiones antiguas, para ello ejecutamos el comando:
 sudo apt-get remove docker docker-engine docker.io containerd runc Ahora ya lo podemos instalar usando el repositorio de docker para Ubuntu:
 sudo apt-get install ca-certificates curl gnupg-agent lsb-release Añadimos la clave GPG oficial de docker:

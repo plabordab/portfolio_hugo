@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>git on Pilar Laborda</title>
-    <link>http://localhost/tags/git/</link>
+    <link>https://plabordab.github.io/portfolio_hugo/tags/git/</link>
     <description>Recent content in git on Pilar Laborda</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es</language><atom:link href="http://localhost/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <language>es</language><atom:link href="https://plabordab.github.io/portfolio_hugo/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>git pull</title>
-      <link>http://localhost/git_pull/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/git_pull/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/git_pull/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/git_pull/</guid>
       <description>El comando git pull se emplea para extraer y descargar contenido desde un repositorio remoto y actualizar al instante el repositorio local.
 La fusión de cambios remotos de nivel superior en el repositorio local es una tarea habitual de los flujos de trabajo de colaboración basados en Git.
 El comando git pull es, en realidad, una combinación de dos comandos, git fetch seguido de git merge.
@@ -20,20 +20,20 @@ En la primera etapa de la operación git pull ejecutará un git fetch en la rama
     
     <item>
       <title>git push</title>
-      <link>http://localhost/git_push/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/git_push/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/git_push/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/git_push/</guid>
       <description>El comando git push se usa para cargar contenido del repositorio local a un repositorio remoto.
 El envío es la forma de transferir confirmaciones desde tu repositorio local a un repositorio remoto. Es el equivalente a git fetch, pero mientras que al recuperar se importan las confirmaciones a ramas locales, al enviar estas se exportan a ramas remotas. Las ramas remotas se configuran mediante el comando git remote. Los envíos pueden sobrescribir los cambios, por lo que se debe tener cuidado a la hora de realizarlos.</description>
     </item>
     
     <item>
       <title>github</title>
-      <link>http://localhost/git_info/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/git_info/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/git_info/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/git_info/</guid>
       <description>La plataforma de desarrollo más completa para crear, escalar y entregar software seguro. Codificación colaborativa Contribución rápida a proyectos con configuración automática del entorno.
 Seguridad de visión de los cambios de interés.
 Posibilidad de creación de una comunidad en torno a su código.
@@ -44,10 +44,10 @@ Las mejores prácticas, la seguridad y el cumplimiento en toda la organización.
     
     <item>
       <title>Vinculación a git</title>
-      <link>http://localhost/git_init/</link>
+      <link>https://plabordab.github.io/portfolio_hugo/git_init/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/git_init/</guid>
+      <guid>https://plabordab.github.io/portfolio_hugo/git_init/</guid>
       <description>Repositorio local y repositorio remoto Los repositorios remotos son versiones del proyecto hospedadas en Internet. Colaborar con otras personas implica gestionar estos repositorios enviando y recogiendo datos de ellos cuando sea necesario compartir el trabajo.
 Las operaciones básicas entre un repositorio remoto y uno local son:
 push: Envía los cambios validados de la rama local a la rama remota.
